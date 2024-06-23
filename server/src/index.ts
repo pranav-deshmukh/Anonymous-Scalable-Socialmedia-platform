@@ -15,7 +15,7 @@ if(DB){
     console.log('Db connected successfully');
     const port = 8000;
     app.listen(port, ()=>{
-      console.log(`APp listening on port ${port}`);
+      console.log(`App listening on port ${port}`);
       
     });
   })
